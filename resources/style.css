@@ -2,7 +2,7 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: blue;
+  background-color: black;
   opacity:0.9;
   text-align: center;
   margin: 0;
@@ -108,5 +108,10 @@ header a {
   flex-flow: row wrap;
   align-content: center;
   justify-content: center;
+  background-color: black;
+}
+footer {
+  align-self: flex-start;
+  padding-left: 20px;
   background-color: black;
 }
